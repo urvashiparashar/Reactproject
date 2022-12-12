@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
 
 function Home() {
   return (
     <>
+    <Header/>
     {/*<!-- ======= Hero Section ======= -->*/}
     <section id="hero" className="d-flex align-items-center">
     <div className="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
@@ -194,7 +197,7 @@ function Home() {
     </section>
     {/* <!-- End Cta Section --> */}
   </main>
-
+  <Footer/>
 </>
 
   );
