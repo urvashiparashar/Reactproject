@@ -1064,7 +1064,8 @@ section {
 --------------------------------------------------------------*/
 #footer
 {
-  color: rgb(178, 169, 169);
+  color: rgb(239, 234, 234);
+  background-color: #2b202a;
 }
 
 #footer .social-links a {

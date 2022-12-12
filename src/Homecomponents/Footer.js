@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer id="footer" style={{backgroundColor:  'rgb(93, 84, 80)'}}>
+    <footer id="footer">
         <div className="container d-md-flex py-2 last">
 
           <div className="me-md-auto text-center text-md-start">

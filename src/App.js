@@ -1,22 +1,24 @@
 import logo from './logo.svg';
 import React from 'react'
 import './App.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import Header from './Components/Header';
-import Home from './Components/Home';
-import Footer from './Components/Footer';
-import Featuredservices from './Components/Featuredservices';
-import Cards from './Components/Cards';
+import Header from './Homecomponents/Header';
+import Home from './Homecomponents/Home';
+import Footer from './Homecomponents/Footer';
+
+
 function App() {
   return (
     <>
-     
-      
+      {/*Home page section*/}
+      <Router>
       <Header/>
       <Home/>
-      <Featuredservices/>
-      <Cards/>
-      <Footer/>
+      
+      <Footer/></Router>
+
+      
       
     </>
   );
