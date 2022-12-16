@@ -7,7 +7,7 @@ function Footer() {
 
           <div className="me-md-auto text-center text-md-start">
             <div className="copyright pt-1">
-              &copy; Copyright <strong><span>Mindcare</span></strong>. All Rights Reserved
+              &copy; Copyright <strong><span>Sano</span></strong>. All Rights Reserved
             </div>
           </div>
           <div className="social-links text-center text-md-right pt-3 pt-md-0">

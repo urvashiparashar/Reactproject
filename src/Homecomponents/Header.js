@@ -17,7 +17,7 @@ export default function Header() {
             <li><Link className="nav-link scrollto active" to="/About">About</Link></li>
             <li><a className="nav-link scrollto" href="cards.html">Guide</a></li>
             
-            <li><a className="nav-link scrollto" href="registration1.html">Contact</a></li>
+            <li><Link className="nav-link scrollto" to="/Contact">Contact</Link></li>
 
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
